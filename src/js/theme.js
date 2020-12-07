@@ -10,7 +10,7 @@ const refs = {
 //console.log(refs.themeSwitch);
 
 refs.themeSwitch.addEventListener('change', (e) => {
-  console.log(e.target.checked);
+  //console.log(e.target.checked);
   if (e.target.checked) {
     localStorage.setItem('Theme', Theme.DARK);
     refs.body.classList.replace(Theme.LIGHT, Theme.DARK);
